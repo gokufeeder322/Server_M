@@ -68,7 +68,7 @@
   "trackVillagerPosition": true,
   "trackVillagerPositionEveryNTicks": 200,
   "_read_this_before_using_villager_ai": "https://github.com/Luke100000/minecraft-comes-alive/wiki/GPT3-based-conversations",
-  "enableVillagerChatAI": true,
+  "enableVillagerChatAI": false,
   "villagerChatAIIntelligence": 4,
   "villagerChatAIEndpoint": "https://api.conczin.net/v1/mca/chat",
   "villagerChatAIToken": "",
@@ -202,19 +202,19 @@
     "minecraft:ancient_city"
   ],
   "destinyLocationsToTranslationMap": {
-    "minecraft:shipwreck_beached": "destiny.story.sailing",
-    "default": "destiny.story.travelling"
+    "default": "destiny.story.travelling",
+    "minecraft:shipwreck_beached": "destiny.story.sailing"
   },
   "professionConversionsMap": {},
   "shaderLocationsMap": {
-    "sirben": "mca:shaders/post/sirben.json",
-    "color_blind": "minecraft:shaders/post/desaturate.json"
+    "color_blind": "minecraft:shaders/post/desaturate.json",
+    "sirben": "mca:shaders/post/sirben.json"
   },
   "playerRendererBlacklist": {
-    "morph": "arms",
-    "firstperson": "arms",
+    "epicfight": "all",
     "firstpersonmod": "arms",
-    "epicfight": "all"
+    "firstperson": "arms",
+    "morph": "arms"
   },
   "enabledTraits": {
     "SIRBEN": true,
