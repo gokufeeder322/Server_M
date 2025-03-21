@@ -4480,5 +4480,17 @@
     },
     "done": true
   },
+  "mca:friend": {
+    "criteria": {
+      "baby": "2025-03-21 20:00:12 +0000"
+    },
+    "done": true
+  },
+  "mca:best_friend": {
+    "criteria": {
+      "baby": "2025-03-21 20:00:12 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
