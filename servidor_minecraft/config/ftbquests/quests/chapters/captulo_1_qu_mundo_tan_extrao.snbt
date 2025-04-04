@@ -1,0 +1,2575 @@
+{
+	autofocus_id: "0EEA178A1BAB7C15"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "captulo_1_qu_mundo_tan_extrao"
+	group: "67C59664C0072494"
+	id: "340439F2B8A35174"
+	images: [{
+		dependency: "388F48D17E145A50"
+		height: 2.0d
+		image: "minecraft:block/light_block_15"
+		rotation: 0.0d
+		width: 2.0d
+		x: 7.5d
+		y: -1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2CEB04B536E9D9FB"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "717AC6E9B638D075"
+				type: "dimension"
+			}]
+			title: "QUE MUNDO TAN EXTRAÑO"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CEB04B536E9D9FB"]
+			description: [
+				"—¿Qué? "
+				"¿Dónde estoy? "
+				"¿Cómo llegué aquí?"
+				""
+				"(Lo último que recuerdas es que te quedaste profundamente dormid@ en tu cama)"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:chocolate_heart"
+			}
+			id: "559795199C5F9731"
+			rewards: [
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "7DC320EFE575DC6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "7F76565BB9DA2B17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 4
+					exclude_from_claim_all: true
+					id: "2D5412FA5F9766E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "744DC810F6F6794B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say —¿Qué? ¿Dónde estoy? ¿Cómo llegué aquí?(Lo último que recuerdas es que te quedaste profundamente dormid@ en tu cama)"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "7B8DB8866ECB7908"
+					ignore_reward_blocking: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "347698D88D92B589"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Angel Lozano"
+							pages: [
+								"{\"text\":\"Hola, muchas gracias por probar perfection, este proyecto es el más grande que he hecho hasta la fecha, esto pude lograrlo gracias al  apoyo de todas las personas que me ayudaron a realizarlo.\"}"
+								"{\"extra\":[{\"text\":\"y a ustedes que le dan la oportunidad de probar este modpack y confiar en lo que estamos haciendo. \\nsi ves algún bug importante puedes mencionarlo en nuestro server de discord.\\n\\n\"},{\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/q8DdJmhPDW\"},\"text\":\"DISCORD\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"Si eres creador de contenido no dudes en etiquetarme con: \"},{\"bold\":true,\"text\":\"@angellozano5487\"},{\"text\":\" en Youtube para que pueda ver tus logros y tu reacción al jugar este modpack. \\n\\n\"},{\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/@angellozano5487\"},\"text\":\"YOUTUBE\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"text\":\"Si gustas apoyarnos de alguna manera para que este proyecto pueda seguir creciendo aquí tienes mis redes sociales \\n\\n\"},{\"underlined\":true,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://linktr.ee/shyoshi\"},\"text\":\"REDES\"},{\"text\":\"\\n \\n¡Disfruta mucho de este modpack!\"}],\"text\":\"\"}"
+							]
+							resolved: 1b
+							title: "Mil gracias"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6124E8DEBE4A4204"
+				title: "Reclama tu kit de inicio "
+				type: "checkmark"
+			}]
+			title: "Mi nueva vida"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"559795199C5F9731"
+				"2A730E72CA840A94"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Rápidamente entiendes esta nueva realidad y comienzas a prepararte para la noche"
+				""
+				"TÚ"
+				"—No puede ser esto debe ser un sueño,"
+				"esto no está pasando, esto no está pasando !Que voy a hacer ahora¡"
+				""
+				"Tranquilizate @p debes buscar un buen arbol para quedarte esta noche."
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:campfire"
+			}
+			id: "27967C1A13476AE2"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0073963FAC7E994B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "10E785EBED65A926"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "valhelsia_structures:red_sleeping_bag"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say Rápidamente entiendes esta nueva realidad y comienzas a prepararte para la nocheTU—No puede ser esto debe ser un sueño,esto no está pasando, esto no está pasando !Que voy a hacer ahora¡Tranquilizate @p debes buscar un buen arbol para quedarte esta noche."
+					id: "5FAC23C59748B75E"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "075963B02F8F4210"
+				title: "Dialogo"
+				type: "checkmark"
+			}]
+			title: "¡Qué problema!"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27967C1A13476AE2"]
+			description: ["—Siento que estoy delirando, comencé a escuchar sonidos muy extraños en la noche, creo que vi sombras moviéndose, necesito que alguien me diga que está pasando."]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7507D8A649FF1E3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Siento que estoy delirando, comencé a escuchar sonidos muy extraños en la noche, creo que vi sombras moviéndose, necesito que alguien me diga que está pasando."
+				id: "5526D6808FB236DD"
+				type: "command"
+			}]
+			subtitle: "Duerme en la sleeping bag"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "318834A8919817F8"
+				type: "advancement"
+			}]
+			title: "Qué noche tan dificil"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0EEA178A1BAB7C15"]
+			dependency_requirement: "one_completed"
+			description: [
+				"TU"
+				"—Por fin alguien con el que puedo hablar. Crees que me puedas decir ¿Dónde estamos?"
+				""
+				"ALDEANO"
+				"—¡Hola desconocid@! Eres nuev@ en este mundo cierto."
+				""
+				"Realmente ni yo se donde estamos exactamente, perdón por no poderte responder "
+				"¡Vaya, me recuerdas a mi cuando recién llegué a este mundo yo también estaba muy confundido, pero al igual que tú me encontré esta aldea y me recibieron muy bien así que me quedé aquí y formé mi familia y ahora soy feliz, te voy a dar un libro que me ayudó mucho a integrarme a este mundo, en él están algunos objetos que puedes fabricar en la mesa de crafteo, una última cosa, NO INTENTES ROBARLES LOS COFRES A LOS ALDEANOS NI DUERMAS EN SUS CAMAS, nosotros te abrimos las puertas de nuestro hogar, puedes quedarte en cualquiera de nuestras casas en lo que haces la tuya, ¡NO ABUSES DE NUESTRA CONFIANZA!"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "633B42E8A3B3373A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say —Por fin alguien con el que puedo hablar. Crees que me puedas decir ¿Dónde estamos?ALDEANO—¡Hola desconocid@! Eres nuev@ en este mundo cierto.Realmente ni yo se donde estamos exactamente, perdón por no poderte responder ¡Vaya, me recuerdas a mi cuando recién llegué a este mundo yo también estaba muy confundido, pero al igual que tú me encontré esta aldea y me recibieron muy bien así que me quedé aquí y formé mi familia y ahora soy feliz, te voy a dar un libro que me ayudó mucho a integrarme a este mundo, en él están algunos objetos que puedes fabricar en la mesa de crafteo, una última cosa, NO INTENTES ROBARLES LOS COFRES A LOS ALDEANOS NI DUERMAS EN SUS CAMAS, nosotros te abrimos las puertas de nuestro hogar, puedes quedarte en cualquiera de nuestras casas en lo que haces la tuya, ¡NO ABUSES DE NUESTRA CONFIANZA!"
+					id: "63F6716980D3E33D"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "0C84ADFA0A25C3CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "lexicon:lexicon"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Encuentra una aldea e interactúa con un aldeano común"
+			tasks: [{
+				id: "78959BBA2179B9C8"
+				stat: "minecraft:talked_to_villager"
+				type: "stat"
+				value: 1
+			}]
+			title: "Mis nuevos amigos"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["7507D8A649FF1E3F"]
+			description: [
+				"Encuentra una aldea"
+				"y marca la misión cuando te encuentres en una. "
+				""
+				"&ePuedes usar la brujula (recomendamos que no sea village_plains y ninguna de integrated villages)&r"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:dirt_path"
+			}
+			id: "0EEA178A1BAB7C15"
+			progression_mode: "linear"
+			require_sequential_tasks: true
+			rewards: [{
+				auto: "enabled"
+				command: "/say ¡Una aldea! Que bien que no estoy solo en este lugar, vamos a pedirle ayuda a alguien"
+				id: "51A1A8C760C1E2C1"
+				type: "command"
+			}]
+			subtitle: "Busca una aldea"
+			tasks: [{
+				id: "462076F0C8CDF774"
+				title: "MARCAR CUANDO VEAS UNA ALDEA"
+				type: "checkmark"
+			}]
+			title: "Tierra a la vista"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["633B42E8A3B3373A"]
+			dependency_requirement: "all_started"
+			description: [
+				"—Bien, tendré que hacer mis cosas por mi propia cuenta y encontrar mis respuestas por mis propios medios."
+				"Okey, tendre que leer el libro que me dio el aldeano "
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "18BDA86D042B6102"
+			rewards: [
+				{
+					count: 5
+					id: "779BC6B9C21D0AA0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say —Bien, tendré que hacer mis cosas por mi propia cuenta y encontrar mis respuestas por mis propios medios.Okey, tendre que leer el libro que me dio el aldeano."
+					id: "2B89D9E182DCAAE0"
+					type: "command"
+				}
+			]
+			subtitle: "CRAFTEA tus herramientas"
+			tasks: [
+				{
+					id: "061B3C4467F1F13C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "1C652D6D4FA6004D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4E02FCCA82A19D7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "6543BF733C023457"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "¡A trabajar!"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18BDA86D042B6102"]
+			description: [
+				"TU"
+				"— Hola ¿de casualidad no ha escuchado sonidos raros mientras duerme o ha visto cosas extrañas en la noche?"
+				"GUARDIA"
+				"—Todo el tiempo, por eso estoy despierto todo el dia, eres el/la nuev@ verdad, me contaron de ti, de noche aparecen criaturas muy extrañas, realmente no se por que pasa eso, lo que haz escuchado es real, yo no he visto criaturas tan peligrosas pero viajeros me han contado que fuera de esta aldea han visto cosas muy aterradoras, me han dicho que por poco no la cuentan. No te recomiendo salir de esta aldea al menos hasta que verdaderamente estés preparado, te voy a dar un regalo para que te protejas mejor, se lo robe a un saqueador la última vez que intentaron robar la aldea."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "388F48D17E145A50"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say TU— Hola ¿de casualidad no ha escuchado sonidos raros mientras duerme o ha visto cosas extrañas en la noche?GUARDIA—Todo el tiempo, por eso estoy despierto todo el dia, eres el/la nuev@ verdad, me contaron de ti, de noche aparecen criaturas muy extrañas, realmente no se por que pasa eso, lo que haz escuchado es real, yo no he visto criaturas tan peligrosas pero viajeros me han contado que fuera de esta aldea han visto cosas muy aterradoras, me han dicho que por poco no la cuentan. No te recomiendo salir de esta aldea al menos hasta que verdaderamente estés preparado, te voy a dar un regalo para que te protejas mejor, se lo robe a un saqueador la última vez que intentaron robar la aldea."
+					id: "6F67AEC0B325C695"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "4FA3E7C889A240B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6787349974E6BBBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "illagerrevolutionmod:helmet_miner"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Interactúa con un guardia &a(GUARD VILLAGERS)"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B05D7B02D6BB26B"
+				observe_type: 5
+				timer: 50L
+				title: "habla con el guardia"
+				to_observe: "guardvillagers:guard"
+				type: "observation"
+			}]
+			title: "Para que te protejas"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"388F48D17E145A50"
+				"66DA17FD3A5831A8"
+			]
+			description: ["—¡Necesito encontrar respuestas ya! Creo que estoy lo suficientemente preparad@ voy a salir a buscar a alguien que me diga donde estoy y cómo salir de aquí"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lantern"
+			}
+			id: "2E659513D73B897C"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —¡Necesito encontrar respuestas ya! Creo que estoy lo suficientemente preparad@ voy a salir a buscar a alguien que me diga donde estoy y cómo salir de aquí"
+				id: "0C036BAE3DA8BFE4"
+				type: "command"
+			}]
+			subtitle: "da clic a esta misión cuando la completes la mision secundaria &a\"!Estoy listo estoy listo¡\" "
+			tasks: [{
+				id: "3F2E2F0E95848100"
+				title: "PULSA HASTA ESTAR PREPARADO"
+				type: "checkmark"
+			}]
+			title: "HORA DE PARTIR"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["432A9F121CD630F8"]
+			description: [
+				"TU"
+				"—Hola gigante de hierro ¿Tu sabrás como salir de este mundo?  (le explicas tu situación)"
+				"GOLEM DE HIERRO"
+				"— No es la primera vez que he escuchado eso, una vez llegaron, un chico y una chica en tu misma situación, no se como salir de este "
+				"mundo, sin embargo sé que en este mundo suceden bastantes anomalías, espacio temporales que no podría explicar, me han contado que algunos de los habitantes de este mundo han llegado de la misma manera que tu, de un momento a otro estaban ya en este aquí. No se que tanto hayas visto antes de llegar a este mundo pero te voy a contar algo,"
+				"yo tambien he visto cosas muy extrañas desde que fui creado, he peleado con criaturas muy raras, y cada vez se pone peor desde hace un tiempo, las criaturas cada vez son más fuertes, por supuesto que puedo con ellas y si me dañan los aldeanos me reparan durante el día, así que no hay tanto problema pero tu muchach@, no se que tanta experiencia en batalla tendrás, te daré un consejo, si quieres sobrevivir en este mundo tendrás que  evitar lo más que puedas esas criaturas o hacerte lo suficientemente fuerte para que sus ataques te hagan cosquillas.  En tu travesía te encontrarás diferentes civilizaciones que están especializadas en algo específico."
+				"Te voy a preguntar algo ¿Tu crees en la magia? "
+				"TU"
+				"—Por supuesto que no, solo es una mentira que los charlatanes utilizan para que les des dinero."
+				"GOLEM DE HIERRO"
+				"—Será mejor que empieces a creer en ella muchach@, ¡La magia es real! No tengo pruebas, pero créeme ellos son los más fuertes que existen en este mundo."
+				"TU"
+				"—Sí, claro que te creo gigante de hierro. "
+				"GOLEM DE HIERRO"
+				"—Mira, te voy a dar un pequeño regalo, cuando un golem te da una flor significa que te tiene confianza y que te desea suerte. Te la estoy dando porque confío en que vas a poder volver a tu mundo si es que decides hacerlo, también te voy a dar algo que escribí en mis ratos libres, quizá te pueda servir."
+				"TÚ"
+				"—Muchas gracias gigante de hierro, lo aprecio mucho. "
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:rose"
+			}
+			id: "05DF12CF3C1AB270"
+			rewards: [
+				{
+					id: "0F542D8EB2E0F700"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomesoplenty:rose"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say TU—Hola gigante de hierro ¿Tu sabrás como salir de este mundo?  (le explicas tu situación)GOLEM DE HIERRO— No es la primera vez que he escuchado eso, una vez llegaron, un chico y una chica en tu misma situación, no se como salir de este mundo, sin embargo sé que en este mundo suceden bastantes anomalías, espacio temporales que no podría explicar, me han contado que algunos de los habitantes de este mundo han llegado de la misma manera que tu, de un momento a otro estaban ya en este aquí. No se que tanto hayas visto antes de llegar a este mundo pero te voy a contar algo,yo tambien he visto cosas muy extrañas desde que fui creado, he peleado con criaturas muy raras, y cada vez se pone peor desde hace un tiempo, las criaturas cada vez son más fuertes, por supuesto que puedo con ellas y si me dañan los aldeanos me reparan durante el día, así que no hay tanto problema pero tu muchach@, no se que tanta experiencia en batalla tendrás, te daré un consejo, si quieres sobrevivir en este mundo tendrás que  evitar l"
+					id: "3134AF60F4512A7A"
+					type: "command"
+				}
+				{
+					id: "15DE89DB5F6C141D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "gólem de hierro"
+							pages: [
+								"{\"text\":\"He visto cosas muy horribles, hoy estuve a punto de morir en una invasión, nunca habia visto algo similar, esos invasores lanzaban rayos de sus manos, no se como pero con suerte pudimos acabar con ella antes de que eso pasara, un bibliotecario, me\"}"
+								"{\"text\":\"reparó, y mientras lo hacía me conto que lo que había visto ese día magia oscura. No pude creerlo en su momento, pero ahora todo tiene sentido, fui creado apenas hace unos pocos años, me faltan muchas cosas por vivir.\"}"
+								"{\"text\":\"bibliotecario —Esa magia oscura fue creada desde la gran guerra que hubo hace varios años, los magos tuvieron que crear esa magia para sellar a las entidades malignas que empezaron a aparecer de un momento a otro, todas las civiliciones\"}"
+								"{\"text\":\"unidas dejaron de existir después de ese día. —Yo no estuve para presenciarla pero tan solo de imaginarla y pensar en lo que me han contado se me eriza la piel de platino\"}"
+								"{\"text\":\"Ultimamente he sentido como que algo no está bien en este mundo, no me da buena espina.\"}"
+							]
+							resolved: 1b
+							title: "MIS MEMORIAS PLATEADAS"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Habla con un golem de hierro "
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomesoplenty:rose"
+				}
+				id: "4DCE7AAA6F31F37F"
+				observe_type: 5
+				timer: 50L
+				title: "habla con el GOLEM DE HIERRO"
+				to_observe: "minecraft:iron_golem"
+				type: "observation"
+			}]
+			title: "Tengo una duda"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05DF12CF3C1AB270"]
+			description: [""]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:rose"
+			}
+			id: "4488079728E79344"
+			rewards: [{
+				auto: "enabled"
+				command: "/say lo más que puedas esas criaturas o hacerte lo suficientemente fuerte para que sus ataques te hagan cosquillas.  En tu travesía te encontrarás diferentes civilizaciones que están especializadas en algo específico.Te voy a preguntar algo ¿Tu crees en la magia? TU—Por supuesto que no, solo es una mentira que los charlatanes utilizan para que les des dinero.GOLEM DE HIERRO—Será mejor que empieces a creer en ella muchach@, ¡La magia es real! No tengo pruebas, pero créeme ellos son los más fuertes que existen en este mundo.TU—Sí claro que te creo gigante de hierro. GOLEM DE HIERRO—Mira, te voy a dar un pequeño regalo, cuando un golem te da una flor significa que te tiene confianza y que te desea suerte. Te la estoy dando porque confío en que vas a poder volver a tu mundo si es que decides hacerlo, también te voy a dar algo que escribí en mis ratos libres, quizá te pueda servir.TÚ—Muchas gracias gigante de hierro, lo aprecio mucho. "
+				id: "1764D433A17DC566"
+				type: "command"
+			}]
+			subtitle: "Sigue hablando con el golem de hierro"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomesoplenty:rose"
+				}
+				id: "5AD6C1A62E7CBB66"
+				observe_type: 5
+				timer: 10L
+				title: "habla con el GOLEM DE HIERRO "
+				to_observe: "minecraft:iron_golem"
+				type: "observation"
+			}]
+			title: "SEGUNDA PARTE DIALOGO"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4488079728E79344"]
+			description: [
+				"GIGANTE DE HIERRO"
+				"—He visto cosas muy horribles, estuve a punto de morir hoy en una invasión, nunca había visto algo similar, esos invasores lanzaban rayos de sus manos, no se como. Pero por suerte pudimos acabar con ella antes de que eso pasara, un bibliotecario me reparó, y mientras lo hacía me contó que lo que había visto ese día era magia oscura. "
+				"No pude creerlo en su momento, pero ahora todo tiene sentido, fui creado apenas hace unos pocos años, me faltan muchas cosas por vivir."
+				"Me dijo: "
+				"BIBLIOTECARIO"
+				" —Esa magia oscura fue creada desde la gran guerra que hubo hace varios años, los magos tuvieron que crear esa magia para sellar a las entidades malignas que empezaron a aparecer de un momento a otro, todas las civilizaciones unidas dejaron de existir después de ese día."
+				"GIGANTE DE HIERRO"
+				" —Yo no estuve para presenciarla pero tan solo de imaginarla y lo que me han contado se me eriza la piel de platino."
+				""
+				"Ultimamente he sentido como que algo no está bien en este mundo, no me da buena espina."
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:paper"
+			}
+			id: "6D9A36404A6CA3DE"
+			rewards: [{
+				id: "2DD9C14D1A1CFEA5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "MIS MEMORIAS PLATEADAS"
+			tasks: [{
+				id: "219D847DD4D20BFA"
+				title: "por si pierdes el libro"
+				type: "checkmark"
+			}]
+			title: "PÁGINA ESCRITA POR EL GIGANTE DE HIERRO"
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2E659513D73B897C"]
+			description: [
+				"— Ese guardia en verdad tenía razón, las cosas que ví mientras viajaba eran bastante aterradoras, pero he de admitir que las vistas eran espectaculares."
+				"Ohh MIRA VOY A PREGUNTARLE AL GIGANTE DE HIERRO"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_door"
+			}
+			id: "432A9F121CD630F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/say — Ese guardia en verdad tenía razón, las cosas que ví mientras viajaba eran bastante aterradoras, pero he de admitir que las vistas eran espectaculares.Ohh MIRA VOY A PREGUNTARLE AL GIGANTE DE HIERRO"
+				id: "7896F07B9B62AD47"
+				type: "command"
+			}]
+			subtitle: "Llega a la villa &6minecraft:village_plains"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:oak_door"
+				}
+				id: "01EAACC85D7FD748"
+				structure: "minecraft:village_plains"
+				type: "structure"
+			}]
+			title: "!Por Fin llegamos¡"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05DF12CF3C1AB270"]
+			description: [
+				"—Bien ahora si me siento más segur@"
+				"Creo que es tiempo de buscar a ese bibliotecario que el gigante de hierro tanto mencionaba en su nota."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "6FF2162A6BF4756F"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Bien ahora si me siento más segur@Creo que es tiempo de buscar a ese bibliotecario que el gigante de hierro tanto mencionaba en su nota."
+				id: "2A00E8BB1C1A0A51"
+				type: "command"
+			}]
+			subtitle: "Craftea una armadura completa de hierro y crea todas tus herramientas de hierro"
+			tasks: [
+				{
+					id: "2499279476C3177B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "5FD7F20037D68B6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "7813967BB730D474"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4BA0B664454BB4D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "Corazón de acero"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FF2162A6BF4756F"]
+			description: [
+				"TU  "
+				" —Hola, disculpe ¿Usted sabe algo sobre como puedo salir de este mundo? "
+				"BIBLIOTECARIO"
+				" —Pues a menos que tengas el poder de volar no lo creo ¿Por qué quieres salir de este mundo?"
+				"TU"
+				"—Es que yo no pertenezco aquí"
+				"BIBLIOTECARIO"
+				"—Lo sé, lo noto por tu acento, ¿de qué región eres? Dime que no eres de la tribu de las ranas, esas me dan escalofríos. "
+				"TU"
+				"—¿Tribu de las ranas de que está hablando? No no no déjeme le explico (le explicas tu situación)"
+				"BIBLIOTECARIO"
+				"—Oh ya veo, desgraciadamente no se como salir de aquí, yo solo leo libros y después los acomodo, y en ninguno de los que he leído menciona nada sobre como viajar a otros planetas."
+				"Pero tal vez los magos, te puedan ayudar, ellos hacen cosas muy extrañas.."
+				"TU"
+				"— ¿A qué se refiere con magos, de qué cosas extrañas está hablando? "
+				"BIBLIOTECARIO"
+				"—Cosas extrañas he visto niñ@, cuando estuve viajando fuera de esta tierra, vi cómo lanzaban rayos, escupían fuego, podían controlar su propia sangre y utilizarla como un arma, pero lo que más miedo me da es que creo haber visto cómo resucitaban a los muertos.. "
+				"TU"
+				"— La verdad no se que pensar, no creo en la magia, pero necesito salir de aquí y si ellos son la única esperanza de salir iré a buscarlos si tan reales son. "
+				"BIBLIOTECARIO"
+				"— ¿A dónde crees que vas? No durarás ni un segundo si es que decides ir a buscarlos, en 3 segundos te harían, polvo de huesos, mira tan solo como vas equipado, con esa armadura te matarían instantáneamente durante el camino, mínimo ten esto, son libros para mejorar tu armadura, un mago me lo dio y me enseñó cómo encantar herramientas, ven vamos a la herrería te enseñaré como se hace. "
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:book"
+			}
+			id: "4720CA3463C251AF"
+			rewards: [
+				{
+					count: 2
+					id: "142AC80940918A50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say TU —Hola, disculpe ¿Usted sabe algo sobre como puedo salir de este mundo? BIBLIOTECARIO —Pues a menos que tengas el poder de volar no lo creo ¿Por qué quieres salir de este mundo?TU—Es que yo no pertenezco aquíBIBLIOTECARIO—Lo sé, lo noto por tu acento, ¿de qué región eres? Dime que no eres de la tribu de las ranas, esas me dan escalofríos. TU—¿Tribu de las ranas de que está hablando? No no no déjeme le explico (le explicas tu situación)BIBLIOTECARIO—Oh ya veo, desgraciadamente no se como salir de aquí, yo solo leo libros y después los acomodo, y en ninguno de los que he leído menciona nada sobre como viajar a otros planetas.Pero tal vez los magos, te puedan ayudar, ellos hacen cosas muy extrañas..TU— ¿A qué se refiere con magos, de qué cosas extrañas está hablando? BIBLIOTECARIO—Cosas extrañas he visto niñ@, cuando estuve viajando fuera de esta tierra, vi cómo lanzaban rayos, escupían fuego, podían controlar su propia sangre y utilizarla como un arma,"
+					id: "5AED8A5536FF920E"
+					type: "command"
+				}
+			]
+			subtitle: "Tradea con un aldeano bibliotecario  &a(PUEDES CREAR AL ALDEANO CON UN ATRIL)&r"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				id: "0E54F4B94229C154"
+				title: "Tradea con un bibliotecario"
+				type: "advancement"
+			}]
+			title: "Vengo a buscar un libro"
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4720CA3463C251AF"]
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:book"
+			}
+			id: "24D691CEDCFC1FC0"
+			rewards: [{
+				auto: "enabled"
+				command: "/say  pero lo que más miedo me da es que creo haber visto cómo resucitaban a los muertos.. TU— La verdad no se que pensar, no creo en la magia, pero necesito salir de aquí y si ellos son la única esperanza de salir iré a buscarlos si tan reales son. BIBLIOTECARIO— ¿A dónde crees que vas? No durarás ni un segundo si es que decides ir a buscarlos, en 3 segundos te harían, polvo de huesos, mira tan solo como vas equipado, con esa armadura te matarían instantáneamente durante el camino, mínimo ten esto, son libros para mejorar tu armadura, un mago me lo dio y me enseñó cómo encantar herramientas, ven vamos a la herrería te enseñaré como se hace. "
+				id: "6EE94586D6F1F489"
+				type: "command"
+			}]
+			subtitle: "Sigue observando al bibliotecario "
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:book"
+				}
+				id: "6692F70C57D9EAF3"
+				observe_type: 5
+				timer: 20L
+				title: "Sigue observandolo"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "segunda parte del dialogo"
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4720CA3463C251AF"]
+			description: [
+				"TU"
+				"—Wow que bonito brillo, le sale a mi armadura, hasta comienzo a creer que sí es magia. "
+				"BIBLIOTECARIO"
+				"—Pues claro que lo es, y no solo es estético el cambio, también en su dureza ahora por lo menos estás un poco más protegido, si de verdad quieres ir a buscar a los magos, ten te daré este libro, solo poseo 3 copias de este. cuidalo con tu alma, mientras vas por tu viaje leelo, es un libro de la historia de este mundo, no se quien lo habrá escrito pero probablemente  ya esté muerto."
+				"Por cierto, no se exactamente donde se encuentran los magos, pero probablemente, mi amigo el mecánico si sepa, él fue el que me dijo donde podía encontrarlos, solo que hay un pequeño gran problema."
+				"Perdí las coordenadas de la ubicación de mi amigo también, más bien, me las robó un tipo gigante, estaba dentro de una cueva, investigando sobre algo que leí y ahí estaba él se acercó y alcanzó a arrebatarme mi mapa todavía lo recuerdo, está en.. &a(Localizar ferrus con la brújula).&r Ten mucho cuidado, ya había escuchado de él pero en ese momento se me olvidó por completo su existencia , te recomiendo llegarle por la espalda en cuanto esté distraído, en cuanto se dio la vuelta le clavé una espada en la espalda, quería recuperar mi mapa, pero en cuanto se dio la vuelta me soltó un hachazo que se me quitaron las ganas de volver, afortunadamente falló, después de eso de inmediato salí corriendo otra vez y ya no me atreví a volver."
+				"TÚ"
+				"—Está bien, muchas gracias por el libro, iré a recuperar tu mapa y seguir con mi camino."
+				"BIBLIOTECARIO "
+				"Mucha suerte viajer@."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:anvil"
+			}
+			id: "3580F0A7787B8C01"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say TU—Wow que bonito brillo, le sale a mi armadura, hasta comienzo a creer que sí es magia. BIBLIOTECARIO—Pues claro que lo es, y no solo es estético el cambio, también en su dureza ahora por lo menos estás un poco más protegido, si de verdad quieres ir a buscar a los magos, ten te daré este libro, solo poseo 3 copias de este. cuidalo con tu alma, mientras vas por tu viaje leelo, es un libro de la historia de este mundo, no se quien lo habrá escrito pero probablemente  ya esté muerto.Por cierto, no se exactamente donde se encuentran los magos, pero probablemente, mi amigo el mecánico si sepa, él fue el que me dijo donde podía encontrarlos, solo que hay un pequeño gran problema.Perdí las coordenadas de la ubicación de mi amigo también, más bien, me las robó un tipo gigante, estaba dentro de una cueva, investigando sobre algo que leí y ahí estaba él se acercó y alcanzó a arrebatarme mi mapa todavía lo recuerdo, está en.."
+					id: "680709914B0DC0AF"
+					type: "command"
+				}
+				{
+					id: "24B441D8D63B8FA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:written_book"
+						tag: {
+							author: "Desconocido"
+							display: { }
+							pages: [
+								"[\"\",{\"text\":\"Historia del Mundo \",\"bold\":true},{\"text\":\"\\nHace mucho, existió un mundo de belleza y equilibrio, donde las civilizaciones de magos, mecánicos y aldeanos vivían en armonía. Los magos dominaban los secretos de la magia oscura, con esto eran capaces de moldear la realidad misma, \\u0020\",\"color\":\"reset\"}]"
+								"{\"text\":\"mientras que los mecánicos, con su ingenio,construyeron enormes máquinas que desafiaban las leyes de la naturaleza. Los aldeanos, tanto los simples como los organizados en comunidades más avanzadas, aportaban vitalidad al mundo con sus costumbres\"}"
+								"{\"text\":\"comercio y tradiciones. Juntos, crearon un mundo próspero, lleno de maravillas tanto tecnológicas como mágicas.\\nSin embargo, esta paz no duró para siempre. Desde lo más profundo de la tierra, un ser antiguo y poderoso\"}"
+								"{\"text\":\"conocido como \\u201cÉl\\u201d. Este ente era el amo del fuego y la destrucción su pura presencia, hacía que la voluntad de cualquier criatura se desintegra, Es una criatura nacida del caos. \\u0020Su llegada fue anunciada por erupciones volcánicas y tormentas de lava \"}"
+								"{\"text\":\"que consumieron ciudades enteras. Sus seguidores, criaturas malignas de todos los rincones del mundo, se alzaron para destruir todo a su paso.\"}"
+								"[\"\",{\"text\":\"La Gran Guerra y el Destierro de las Criaturas Malignas\",\"bold\":true},{\"text\":\"\\nEn un esfuerzo desesperado por proteger su mundo, los magos, mecánicos y aldeanos unieron fuerzas. Los magos convocaron su magia más poderosa recurriendo\\n \",\"color\":\"reset\"}]"
+								"{\"text\":\"a un tipo de magia jamás antes vista, mientras que los mecánicos construyeron máquinas de guerra colosales. Los aldeanos, liderados por los más valientes y sabios de sus comunidades, se unieron al combate proporcionando recursos,\"}"
+								"{\"text\":\" refugio y apoyo logístico. La Gran Guerra que siguió fue devastadora; ríos se evaporaron, montañas fueron reducidas a cenizas y el cielo se oscureció durante años.\\nFinalmente, los magos idearon un plan audaz.\"}"
+								"{\"text\":\"Crear dimensiones selladas para encerrar a las criaturas malignas. El End y el Nether fueron forjados con magia oscura, Estas dimensiones fueron diseñadas como prisiones para las entidades malignas..\"}"
+								"{\"text\":\" No todas las criaturas hostiles pudieron ser desterradas a estas dimensiones. \\\"Él\\\", por su parte, fue sellado en un monumento dentro de una imponente torre en el Nether, protegido por poderosos encantamientos.\"}"
+								"[\"\",{\"text\":\"Un Mundo Fragmentado\",\"bold\":true},{\"text\":\"\\nCon el fin de la guerra, las civilizaciones quedaron fracturadas. Los magos, debilitados por el uso excesivo de su magia, se retiraron a torres solitarias y ocultas y desde entonces \",\"color\":\"reset\"}]"
+								"{\"text\":\"no se sabe mucho de ellos. Los mecánicos, agotados por las pérdidas, se enfocaron en reconstruir sus ciudades y avanzar sus tecnologías, aunque su confianza en la magia se desvaneció. \\u0020Los aldeanos intentaron \"}"
+								"{\"text\":\"reconstruir sus comunidades, pero las cicatrices de la guerra permanecieron. Algunos continuaron con sus vidas tradicionales, mientras que otros formaron sociedades más complejas con estructuras familiares y oficios especializados. \"}"
+								"{\"text\":\"Los siglos pasaron, y las historias de la Gran Guerra y de Él se convirtieron en mitos. Los nuevos habitantes del mundo crecieron sin conocimiento del peligro latente que acechaba bajo la superficie. Sin embargo, el sello que contenía \\u0020a \\\"Él\\\"\"}"
+								"{\"text\":\"comenzó a debilitarse. \\nLas grietas en las dimensiones del End y el Nether permitieron que algunas criaturas escaparan, sembrando el caos en el mundo.\\n \"}"
+								"[\"\",{\"text\":\"Sus hijos\",\"bold\":true},{\"text\":\"\\nUn día, sus propios descendientes, fragmentos de su esencia que no pudieron ser completamente sellados durante la Gran Guerra, comenzaron a manifestarse en el mundo.\",\"color\":\"reset\"}]"
+								"{\"text\":\"Estos seres, con una conexión directa a su poder, buscaban romper el sello que lo contenía. Usando artefactos antiguos y fragmentos de magia oscura, lograron debilitar las barreras mágicas que habían mantenido a \\\"Él\\\" sellado...\"}"
+							]
+							title: "Historia del mundo"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Usa 2 veces el yunque"
+			tasks: [{
+				id: "048B374FEE30B438"
+				stat: "minecraft:interact_with_anvil"
+				type: "stat"
+				value: 2
+			}]
+			title: "¡Pero qué brillante idea!"
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3580F0A7787B8C01"]
+			description: [""]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:anvil"
+			}
+			id: "373BEDB9B51A6C4C"
+			rewards: [{
+				auto: "enabled"
+				command: "/say (Localiza a ferrus con la brújula). Ten mucho cuidado, ya había escuchado de él pero en ese momento se me olvidó por completo su existencia , te recomiendo llegarle por la espalda en cuanto esté distraído, en cuanto se dio la vuelta le clavé una espada en la espalda, quería recuperar mi mapa, pero en cuanto se dio la vuelta me soltó un hachazo que se me quitaron las ganas de volver, afortunadamente falló, después de eso de inmediato salí corriendo otra vez y ya no me atreví a volver.TÚ—Está bien, muchas gracias por el libro, iré a recuperar tu mapa y seguir con mi camino. BIBLIOTECARIO Mucha suerte viajer@."
+				id: "5A201B84E4CAFE9E"
+				type: "command"
+			}]
+			subtitle: "Completa \"pero que brillante idea\""
+			tasks: [{
+				id: "3F9A3BC688632F49"
+				stat: "minecraft:interact_with_anvil"
+				type: "stat"
+				value: 2
+			}]
+			title: "Segunda parte del dialogo"
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3580F0A7787B8C01"
+				"0BC5803C7D42C4EE"
+			]
+			description: ["—Ese bibliotecario se veía verdaderamente preocupado pero creo que estoy lo suficientemente preparado para pelear contra él."]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mowziesmobs:wrought_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0B2A7EC7F0823699"
+			rewards: [
+				{
+					id: "2320B3477557C9EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say —Ese bibliotecario se veía verdaderamente preocupado pero creo que estoy lo suficientemente preparado para pelear contra él."
+					id: "77899E2D6532FFCD"
+					type: "command"
+				}
+			]
+			subtitle: "Completa &a\"pero qué brillante idea\"&a y &e\"!No puedo más¡\" "
+			tasks: [{
+				count: 6L
+				id: "09FE965E9A400216"
+				item: {
+					Count: 6
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				only_from_crafting: true
+				title: "&a CRAFTEA MANZANAS DE ORO"
+				type: "item"
+			}]
+			title: "Mambrú se fue a la guerra"
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B2A7EC7F0823699"]
+			description: [
+				"&6CONSEJO:&r"
+				"Utiliza tu habilidad de esquivar para evitar el daño del Ferrus. &eALT&r"
+				""
+				"AVECES FERRUS SE ATORA EN UNA ESQUINA, PARA LIBERARLO &eQUITA LOS BLOQUES DE SU ALREDEDOR PARA QUE SE MUEVA&r"
+				""
+				"&a(La estructura se encuentra bajo tierra).&r"
+				""
+				"Tú"
+				"—Fue un largo camino pero al fin llegué,"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:map"
+			}
+			id: "457975F85F2B06BF"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Fue un largo camino pero al fin llegué"
+				id: "16B8C94A20E0320A"
+				type: "command"
+			}]
+			subtitle: "Encuentra la ubicación del Ferrus &6wrought_chamber"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:map"
+				}
+				id: "7A67F1B91A92D1F4"
+				structure: "mowziesmobs:wrought_chamber"
+				title: "Encuentra la ubicación del Ferrus"
+				type: "structure"
+			}]
+			title: "!Por Fin llegamos¡"
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["457975F85F2B06BF"]
+			description: [
+				"— Ey Ferrus Te lo diré solo una vez, me vas a dar ese mapa por las buenas o por las malas."
+				"FERRUS"
+				"—Tu, humano insolente te atreviste a interrumpir la hora de mi siesta, si quieres este mapa ven, ven si tienes agallas ¡AHORA ENFRENTA EL PODER DE MI HACHA!"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:map"
+			}
+			id: "537849F331D9B239"
+			rewards: [{
+				auto: "enabled"
+				command: "/say — Ey Ferrus Te lo diré solo una vez, me vas a dar ese mapa por las buenas o por las malas.FERRUS—Tu, humano insolente te atreviste a interrumpir la hora de mi siesta, si quieres este mapa ven, ven si tienes agallas ¡AHORA ENFRENTA EL PODER DE MI HACHA!"
+				id: "5E97B21AF2C1CAA3"
+				type: "command"
+			}]
+			subtitle: "Ve directamente a ferrus."
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "41E3E6B3E92E1592"
+				observe_type: 5
+				timer: 0L
+				title: "HABLA CON FERRUS"
+				to_observe: "mowziesmobs:ferrous_wroughtnaut"
+				type: "observation"
+			}]
+			title: "¿Ey de dónde sacaste eso?"
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["537849F331D9B239"]
+			description: [
+				"FERRUS"
+				"—Volveré por ti, no creas que te saldrás con la tuya tan fácil, mis compañeros te harán pedazos te llevaran con “EL”, El te va a juzgar y no volverás a ver la luz del día."
+				"TU"
+				"—Tal vez en otra vida Ferrus, este hueso es más difícil de roer de lo que tu piensas."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mowziesmobs:wrought_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A24121BC3B218B9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say FERRUS—Volveré por ti, no creas que te saldrás con la tuya tan fácil, mis compañeros te harán pedazos te llevaran con “EL”, El te va a juzgar y no volverás a ver la luz del día.TU—Tal vez en otra vida Ferrus, este hueso es más difícil de roer de lo que tu piensas."
+					id: "134F24F1A04FD666"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "4016779BD978B1ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paraglider:spirit_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "21EAE0F4CE3FEACB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Mata a Ferrus"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4546ADAEA4AB5A5D"
+				title: "Mata a Ferrus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "¡Dame eso!"
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0A24121BC3B218B9"]
+			description: [
+				"—Perfecto ya tengo las coordenadas"
+				""
+				"La aldea está en (localiza la aldea: &eintegrated_villages:cabin_village&r en tu brujula)"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:map"
+			}
+			id: "7D498EC645495932"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Perfecto ya tengo las coordenadasLa aldea está en: "
+				id: "3E53BB9BF33998C7"
+				type: "command"
+			}]
+			subtitle: "entrega el mapa en blanco  "
+			tasks: [{
+				consume_items: true
+				id: "022F1B56D1EF3498"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			title: "¿Qué dice aquí?"
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D498EC645495932"]
+			description: [
+				"&aPRESIONA EN EL BOTON PARA QUE TE DEN LAS COORDENADAS&r"
+				""
+				"&6nota:&r"
+				"NO SE RECOMIENDA HACER TP HACIA LAS COORDENADAS, VE CAMINANDO HACIA LA ALDEA"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:map"
+			}
+			id: "686F9DAC7CE42A66"
+			rewards: [{
+				auto: "enabled"
+				command: "/locate structure integrated_villages:cabin_village"
+				id: "2C0CDDF18D036347"
+				type: "command"
+			}]
+			subtitle: "REVISA LA UBICACION DE LA VILLA MAS CERCANA"
+			tasks: [{
+				id: "7F708F7CF1A33B18"
+				title: "MOSTRAR LAS COORDENADAS"
+				type: "checkmark"
+			}]
+			title: "Coordenadas"
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7D498EC645495932"]
+			description: [
+				"—Oye pero que bonito casco a decir verdad, bueno tal vez bonito no sea la palabra pero quien sea que lo haya diseñado es un genio, con esto si que me voy a proteger."
+				""
+				"Si pudiera decir lo mismo de este hacha, que fuerza tenía ese ferrus, con razón pegaba como un camión."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "eeeabsmobs:guardian_axe"
+			}
+			id: "7CF0868271377070"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say —Oye pero que bonito casco a decir verdad, bueno tal vez bonito no sea la palabra pero quien sea que lo haya diseñado es un genio, con esto si que me voy a proteger.Si pudiera decir lo mismo de este hacha, que fuerza tenía ese ferrus, con razón pegaba como un camión."
+					id: "30661493F119BA1F"
+					type: "command"
+				}
+				{
+					id: "763A4350BAAFBAAA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Obtén hacha y casco  de ferrus"
+			tasks: [
+				{
+					id: "56C774C49B7621EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:wrought_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79A5EAFCD9F47AAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:wrought_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "¡Qué pesado!"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7CF0868271377070"]
+			description: [
+				"—¡Pero qué agradable lugar para hacer una aldea, mi sueño siempre había sido vivir en un lugar como este! "
+				"Ahora tengo que buscar a ese tal mecanicó que me mencionó, pero en una aldea llena de personas no se por donde empezar."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "3D6F4B53BA5444BC"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —¡Pero qué agradable lugar para hacer una aldea, mi sueño siempre había sido vivir en un lugar como este! Ahora tengo que buscar a ese tal mecanicó que me mencionó, pero en una aldea llena de personas no se por donde empezar"
+				id: "7AAAC05DB8F06B6F"
+				type: "command"
+			}]
+			subtitle: "llega a &e integrated_villages:cabin_village"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:cuckoo_clock"
+				}
+				id: "627EDD778CD040A2"
+				structure: "integrated_villages:cabin_village"
+				title: "llega a la aldea"
+				type: "structure"
+			}]
+			title: "El camino no se acaba. "
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D6F4B53BA5444BC"]
+			description: [
+				"TU"
+				"—Hola, disculpa la pregunta pero ¿De casualidad tú conoces a algún bibliotecario? "
+				"ALDEANO"
+				"—La verdad conozco muchos bibliotecarios, a lo mejor y si ¿No sabes su nombre?"
+				"TU"
+				"—¡Diablos! no me dijo su nombre, se me olvido preguntarle."
+				"ALDEANO"
+				"—Eso hace las cosas mucho más difíciles muchach@  ¿Para que buscabas a esa persona?"
+				"TU"
+				"—Verá (Le cuentas lo que te contó el aldeano) "
+				"ALDEANO "
+				"—Ahhh entiendo, mira no se si yo sea la persona que buscas pero se rumorea desde hace bastante tiempo que lo que te pasó puede haber sido obra de los magos, desde que ellos empezaron a experimentar con cosas raras, comenzaron a llegar entidades buenas y malas a este planeta, yo no, yo nací aquí en este mundo pero el sacerdote de esta aldea me contó un poco de la historia de este mundo, es muy confusa la verdad ni yo entiendo donde vivo ni el origen de este mundo, no se si te la hayan contado a ti."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "20BFAF7A8BD746C6"
+			rewards: [{
+				auto: "enabled"
+				command: "/say TU—Hola disculpa la pregunta pero ¿De casualidad tú conoces a algún bibliotecario? ALDEANO—La verdad conozco muchos bibliotecarios, a lo mejor y si ¿No sabes su nombre?TU—¡Diablos! no me dijo su nombre, se me olvido preguntarle.ALDEANO—Eso hace las cosas mucho más difíciles muchach@  ¿Para que buscabas a esa persona?TU—Verá (Le cuentas lo que te contó el aldeano) ALDEANO —Ahhh entiendo, mira no se si yo sea la persona que buscas pero se rumorea desde hace bastante tiempo que lo que te pasó puede haber sido obra de los magos, desde que ellos empezaron a experimentar con cosas raras, comenzaron a llegar entidades buenas y malas a este planeta, yo no, yo nací aquí en este mundo pero el sacerdote de esta aldea me contó un poco de la historia de este mundo, es muy confusa la verdad ni yo entiendo donde vivo ni el origen de este mundo, no se si te la hayan contado a ti."
+				id: "061C4613378852BE"
+				type: "command"
+			}]
+			subtitle: "Habla con un aldeano de la aldea (Hombre) O Aldeeano común"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mca:male_villager_spawn_egg"
+					}
+					id: "6F10CA98BA04E171"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "HABLA CON UN ALDEANO (HOMBRE)"
+					to_observe: "mca:male_villager"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "782328D7DE74881A"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "HABLA CON UN ALDEANO (COMÚN)"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Empezaré por aquí"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["20BFAF7A8BD746C6"]
+			description: [
+				"TU"
+				"— Como tal no me la contaron pero lo lei en un libro, el bibliotecario que te conté me lo dió de hecho, enserio es muy difícil de entender, el libro no viene completo y si no sabes mucho contexto de este mundo te deja con más preguntas que respuestas, hay una página en la que menciona algo sobre “EL”. ¿Tu sabes quien es “EL”?"
+				"ALDEANO "
+				"—No lo conozco personalmente, no he visto ni siquiera una foto de “EL” en la escuela nos decían que su nombre real no puede decirse varias veces en voz alta, porque es una entidad tan maligna pero tan maligna que con solo repetir su nombre varias veces puede volver del lugar a donde lo hayan mandado los magos. "
+				"TU"
+				"—¿Wow enserio? es como cuando a mi me decían que no diga charlie muchas veces dentro de un baño con espejo y menos a las 3am. "
+				"ALDEANO "
+				"—A lo mejor y “EL” también se llama charlie no lo crees? por si acaso no vuelvas a repetirlo, no quiero ver mi casa llena de fuego esta noche. Oye por cierto, ¿Te sientes bien? No te ves muy bien."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "0DFCC8C9AB1790AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/say TU— Como tal no me la contaron pero lo lei en un libro, el bibliotecario que te conté me lo dió de hecho, enserio es muy difícil de entender, el libro no viene completo y si no sabes mucho contexto de este mundo te deja con más preguntas que respuestas, hay una página en la que menciona algo sobre “EL”. ¿Tu sabes quien es “EL”?ALDEANO —No lo conozco personalmente, no he visto ni siquiera una foto de “EL” en la escuela nos decían que su nombre real no puede decirse varias veces en voz alta, porque es una entidad tan maligna pero tan maligna que con solo repetir su nombre varias veces puede volver del lugar a donde lo hayan mandado los magos. TU—¿Wow enserio? es como cuando a mi me decían que no diga charlie muchas veces dentro de un baño con espejo y menos a las 3am. ALDEANO —A lo mejor y “EL” también se llama charlie no lo crees? por si acaso no vuelvas a repetirlo, no quiero ver mi casa llena de fuego esta noche. Oye por cierto, ¿Te sientes bien? No te ves muy bien"
+				id: "14EAD14EA28E720D"
+				type: "command"
+			}]
+			subtitle: "Responde la pregunta del aldeano"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mca:male_villager_spawn_egg"
+					}
+					id: "2EB046AA010EFA0F"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Responde la pregunta del aldeano"
+					to_observe: "mca:male_villager"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "5BCCA6026348E5D0"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Responde la pregunta del aldeano"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "\"EL\""
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0DFCC8C9AB1790AE"]
+			description: [
+				"TU"
+				"—La verdad no, estoy seguro que es por que he estado comiendo pura carne de animales, que me he encontrado por el mundo, y nada más que eso, me duele la cabeza y también mi estómago, no pensé que me viera tan mal."
+				"ALDEANO "
+				"—Con razón te ves cansado, has estado viajando mucho en busca de respuestas ¿No es así?"
+				"TU"
+				"—Sí"
+				"ALDEANO "
+				"—Me diste bastante confianza amig@, puedes pasar la noche en mi casa si es que quieres por cierto ¿Cúal es tu nombre?"
+				"TU"
+				"—Me llamo @p señor"
+				"ALDEANO "
+				"—@p ese nombre me recuerda a una vieja historia que solía contarme mi abuela cuando era pequeño, era mi historia favorita, te la mostraria pero tristemente perdí el libro cuando fui camino a la escuela un día, seguramente una rata lo agarró por qué regresé a buscarlo en cuanto me di cuenta que lo había perdido y ya no estaba.  "
+				"TU"
+				"—Que pena oír eso."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "516DEA87AC55402F"
+			rewards: [{
+				auto: "enabled"
+				command: "/say TU—La verdad no, estoy seguro que es por que he estado comiendo pura carne de animales, que me he encontrado por el mundo, y nada más que eso, me duele la cabeza y también mi estómago, no pensé que me viera tan mal.ALDEANO —Con razón te ves cansado, has estado viajando mucho en busca de respuestas ¿No es así?TU—SíALDEANO —Me diste bastante confianza amig@, puedes pasar la noche en mi casa si es que quieres por cierto ¿Cual es tu nombre?TU—Me llamo @p señorALDEANO —@p ese nombre me recuerda a una vieja historia que solía contarme mi abuela cuando era pequeño, era mi historia favorita, te la mostraria pero tristemente perdí el libro cuando fui camino a la escuela un dia, seguramente una rata lo agarró por qué regresé a buscarlo en cuanto me di cuenta que lo había perdido y ya no estaba.  TU—Que pena oír eso."
+				id: "2BAA2C2A6FA9CEB4"
+				type: "command"
+			}]
+			subtitle: "Respondele al aldeano como te sientes"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mca:male_villager_spawn_egg"
+					}
+					id: "1ACB9AABE3B1B48D"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Respondele al aldeano como te sientes"
+					to_observe: "mca:male_villager"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "04EBB50EEEF7E7F2"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Respondele al aldeano como te sientes"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Gracias por preguntar"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["516DEA87AC55402F"]
+			description: [
+				"ALDEANO "
+				"—Volviendo a lo que te decía, tengo algo justo para ti, ten son algunas verduras, que recogí de mis cosechas, a por si no te lo había dicho, me dedico a vender verduras, si ves mi cama, duermo al lado de bloques de heno jajaja, tienes que aprender a hacer tus propios cultivos, es algo básico que todos en este mundo saben hacer, es muy sencillo mira te voy a enseñar"
+				"QUIEEERAS O NOOOO."
+				""
+				"&aDESBLOQUEASTE LAS MISIONES SECUNDARIAS “VERDE COMO LECHUGA”&r"
+				"TU"
+				"—Dioss es mucha información tengo que practicar mucho esto de la cosecha."
+				""
+				"ALDEANO "
+				"—Nooo y espera y esto no es todo. también te tengo que enseñar cómo cocinar para que no comas pura lechuga sin preparar. "
+				"&aDESBLOQUEASTE LAS MISIONES SECUNDARIAS “RATATOUILLE”&r"
+				"TU"
+				"—¡Ahhh mi cabeza!"
+				"ALDEANO "
+				"—Tranquilo, en la práctica te vas a acordar de todo, es fácil."
+				"TU"
+				"—SI CLAROOOO"
+				"ALDEANO "
+				"—Bueno, te dejo descansar, por hoy, ahh se me había olvidado, la verdad no te puedo dar las respuestas que buscas pero sabes quien si puede a lo mejor puede, nuestro sacerdote, casi siempre lo encontrarás en su iglesia, no se que tanto hace ahí, el debe de saber porque para ser sacerdote tienes que haber sido discípulo de alguna persona que haya practicado  la magia, el tal vez tenga contacto con alguno de ellos, si las historias son  ciertas ellos te pueden regresar a tu mundo, no pierdes nada con intentar hablar con el, solo tenle paciencia, es un poco gruñón.  "
+				"TU"
+				"— Ahhh todavia no puedo meterme a la cabeza que la magia existe, pero está bien iré a hablar con él en cuanto descanse un poco. "
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "585F56931944727A"
+			rewards: [
+				{
+					count: 3
+					id: "479F824F116AEC03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "316FDB9070F95A91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/say ALDEANO —Volviendo a lo que te decía, tengo algo justo para ti, ten son algunas verduras, que recogí de mis cosechas, a por si no te lo había dicho, me dedico a vender verduras, si ves mi cama, duermo al lado de bloques de heno jajaja, tienes que aprender a hacer tus propios cultivos, es algo básico que todos en este mundo saben hacer, es muy sencillo mira te voy a enseñarQUIEEERAS O NOOOO.DESBLOQUEASTE LAS MISIONES SECUNDARIAS “VERDE COMO LECHUGA”TU—Dioss es mucha información tengo que practicar mucho esto de la cosecha.ALDEANO —Nooo y espera y esto no es todo. también te tengo que enseñar cómo cocinar para que no comas pura lechuga sin preparar. DESBLOQUEASTE LAS MISIONES SECUNDARIAS “RATATOUILLE”TU—¡Ahhh mi cabeza!ALDEANO —Tranquilo, en la práctica te vas a acordar de todo, es fácil.TU—SI CLAROOOOALDEANO —Bueno, te dejo descansar, por hoy, ahh se me había olvidado, la verdad no te puedo dar las respuestas que buscas pero sabes quien si puede a lo mejor puede, nuestro sacerdote, casi siempre lo encontr"
+					id: "71FDF372482EDFB3"
+					type: "command"
+				}
+			]
+			subtitle: "Sigue conversando con el aldeano"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mca:male_villager_spawn_egg"
+					}
+					id: "4503D8D05B72DDDF"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Sigue conversando con el aldeano"
+					to_observe: "mca:male_villager"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "7BEA3A0835600746"
+					observe_type: 5
+					optional_task: true
+					timer: 50L
+					title: "Sigue conversando con el aldeano"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Te enseño a hacerlo"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["585F56931944727A"]
+			description: [""]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cuckoo_clock"
+			}
+			id: "26F59679DEB9E946"
+			rewards: [{
+				auto: "enabled"
+				command: "/say  lo encontrarás en su iglesia, no se que tanto hace ahí, el debe de saber porque para ser sacerdote tienes que haber sido discípulo de alguna persona que haya practicado  la magia, el tal vez tenga contacto con alguno de ellos, si las historias son  ciertas ellos te pueden regresar a tu mundo, no pierdes nada con intentar hablar con el, solo tenle paciencia, es un poco gruñón.  TU— Ahhh todavia no puedo meterme a la cabeza que la magia existe, pero está bien iré a hablar con él en cuanto descanse un poco. "
+				id: "787EE3DF15D443B7"
+				type: "command"
+			}]
+			subtitle: "Sigue conversando con el aldeano"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mca:male_villager_spawn_egg"
+					}
+					id: "24EA8AC492B854C0"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					title: "Sigue conversando con el aldeano"
+					to_observe: "mca:male_villager"
+					type: "observation"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "7501B4461F204EB2"
+					observe_type: 5
+					optional_task: true
+					timer: 0L
+					title: "Sigue conversando con el aldeano"
+					to_observe: "minecraft:villager"
+					type: "observation"
+				}
+			]
+			title: "Te enseño a hacerlo"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["585F56931944727A"]
+			description: [
+				"&aSI QUIERES PASAR A LA SIGUIENTE MISION TENDRAS QUE COMPLETAR LA MISION SECUNDARIA:&r "
+				"{ \"text\": \"!Otra vez no puedo¡\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53C1F20C16CBB6FF\" } }"
+				""
+				"SACERDOTE:"
+				"—¿Y ahora qué? ¿Otro aventurero que busca respuestas y termina trayendo problemas?"
+				"TU: ¿Cómo sabe que vengo en busca de respuestas? No vine a traer ningún problema, de hecho quiero salir de este problema "
+				"SACERDOTE:"
+				"—Fui criado por brujos y soy el aprendiz del mejor maestro de magia que existe del desierto, muchach@."
+				"TU:"
+				"Me dijeron que usted podría ayudarme. Estoy buscando la manera de regresar a mi mundo, y mencionaron que usted sabe algo de magia o de personas que la practican."
+				"SACERDOTE: "
+				"—Oye ¿ese casco? Lo conozco, Bah, no me hagas reír, muchacho. Esa es una muy buena réplica, por un momento pensé que era el casco auténtico de Ferrus."
+				"TU:"
+				"—No es una réplica, padre. Tuve que quitárselo a ese ladrón, no quería devolverme mi mapa y se lo tuve que quitar a la fuerza, no solo me quede su casco, también su hacha mire,"
+				"SACERDOTE:"
+				"—¿En verdad esperas que me crea esa historia?¿Sabes cuántos han venido con cuentos como el tuyo? Cientos, y todos mienten, lo único que quieren es que les diga dónde se encuentra mi maestro para someter a las civilizaciones con su magia."
+				"TU:"
+				"—No espero que me crea padre. Solo vine porque necesito su ayuda, no tengo la intención de someter a nadie solo quiero irme a casa."
+				"SACERDOTE:"
+				"—Está bien, \"gran guerrero\". Si realmente derrotaste al Ferrus, entonces no te costará encargarte de unos cuantos problemas más."
+				"TU:"
+				"—¿Qué clase de problemas?"
+				"SACERDOTE:"
+				"—En las minas, donde sacamos nuestros materiales para nuestro pueblo, un Warden ha causado estragos. Nadie se atreve a bajar ahora y no los culpo. "
+				"—Necesito también que me traigas algo para hacer unos hechizos, es un cristal de hielo especial, para conseguir este cristal tendrás que burlar a su guardián que lo protege Frostmaw, no tienes que acabar con él necesariamente, puedes arrebatarselo mientras está dormido pero si se despierta estarás obligado a acabar con el."
+				""
+				"TU:"
+				"—¿Quiere que acabe con ellos en serio?"
+				"SACERDOTE:"
+				"—Eso mismo. Si eres tan capaz como presumes, demuéstralo. Y si lo haces, te diré dónde encontrar a un viejo amigo mío, otro sacerdote. Él te ayudará a encontrar las respuestas que necesitas."
+				"TU:"
+				"—Está bien. Si eso es lo que se necesita, lo haré todo sea por volver."
+				"SACERDOTE:"
+				"—Eso si no terminas siendo el almuerzo de alguna de esas criaturas. Anda, ponte en marcha. No tengo todo el día para perderlo contigo."
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76443249BD96A8CF"
+			rewards: [{
+				auto: "enabled"
+				command: "/say SACERDOTE:—¿Y ahora qué? ¿Otro aventurero que busca respuestas y termina trayendo problemas?TU: ¿Cómo sabe que vengo en busca de respuestas? No vine a traer ningún problema, de hecho quiero salir de este problema SACERDOTE:—Fui criado por brujos y soy el aprendiz del mejor maestro de magia que existe del desierto, muchach@.TU:Me dijeron que usted podría ayudarme. Estoy buscando la manera de regresar a mi mundo, y mencionaron que usted sabe algo de magia o de personas que la practican.SACERDOTE: —Oye ¿ese casco? Lo conozco, Bah, no me hagas reír, muchacho. Esa es una muy buena réplica, por un momento pensé que era el casco auténtico de Ferrus.TU:—No es una réplica, padre. Tuve que quitárselo a ese ladrón, no quería devolverme mi mapa y se lo tuve que quitar a la fuerza, no solo me quede su casco, también su hacha mire,SACERDOTE:—¿En verdad esperas que me crea esa historia?¿Sabes cuántos han venido con cuentos como el tuyo? Cientos, y todos mienten, lo único que quieren es que les diga dónde se encuentra "
+				id: "46139F60332036B1"
+				type: "command"
+			}]
+			subtitle: "Habla con el sacerdote  de la aldea"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "733C202841B47673"
+				observe_type: 5
+				timer: 50L
+				title: "Habla con el sacerdote "
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			title: "Favores y más favores."
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76443249BD96A8CF"]
+			description: [""]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5092C352F63BAD35"
+			rewards: [{
+				auto: "enabled"
+				command: "/say  mi maestro para someter a las civilizaciones con su magia.TU:—No espero que me crea padre. Solo vine porque necesito su ayuda, no tengo la intención de someter a nadie solo quiero irme a casa.SACERDOTE:—Está bien, \"gran guerrero\". Si realmente derrotaste al Ferrous, entonces no te costará encargarte de unos cuantos problemas más.TU:—¿Qué clase de problemas?SACERDOTE:—En las minas, donde sacamos nuestros materiales para nuestro pueblo, un Warden ha causado estragos. Nadie se atreve a bajar ahora y no los culpo. —Necesito también que me traigas algo para hacer unos hechizos, es un cristal de hielo especial, para conseguir este cristal tendrás que burlar a su guardián que lo protege Frostmaw, no tienes que acabar con él necesariamente, puedes arrebatarselo mientras está dormido pero si se despierta estarás obligado a acabar con el.TU:—¿Quiere que acabe con ellos en serio?SACERDOTE:—Eso mismo. Si eres tan capaz como presumes, demuéstralo. Y si lo haces, te diré dónde encontrar a un viejo amigo mío, otro "
+				id: "52F9E6E2C3E45D8D"
+				type: "command"
+			}]
+			subtitle: "Habla con el sacerdote  de la aldea"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "28A4E72F5E1FE6A1"
+				observe_type: 5
+				timer: 0L
+				title: "Sigue hablando con el sacerdote"
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			title: "Favores y más favores."
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5092C352F63BAD35"]
+			description: [""]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1031C16EFB93C8DA"
+			rewards: [{
+				auto: "enabled"
+				command: "/say  sacerdote. Él te ayudará a encontrar las respuestas que necesitas.TU:—Está bien. Si eso es lo que se necesita, lo haré todo sea por volver.SACERDOTE:—Eso si no terminas siendo el almuerzo de alguna de esas criaturas. Anda, ponte en marcha. No tengo todo el día para perderlo contigo."
+				id: "758FDC749D7EC08E"
+				type: "command"
+			}]
+			subtitle: "Sigue hablando"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3177C2BFEB27BBF4"
+				observe_type: 5
+				timer: 0L
+				title: "Sigue hablando con el sacerdote"
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			title: "Favores y más favores."
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["740ECC64489BED64"]
+			description: ["—Objetivo completado, será mejor que me vaya a un lugar seguro, oye ¿Qué es eso que veo?"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:warden_spawn_egg"
+			}
+			id: "63856F58B99195D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Objetivo completado, será mejor que me vaya a un lugar seguro, oye ¿Qué es eso que veo?"
+				id: "44DC150D684BA1BA"
+				type: "command"
+			}]
+			shape: "hexagon"
+			subtitle: "Mata al warden"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:warden_spawn_egg"
+				}
+				id: "563A951E4965B6E1"
+				title: "Mata al Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "No se como lo hice"
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0633468EE92FF63B"]
+			description: ["—Ahora si quedaste como paleta, bueno no hay tiempo para celebrar, tengo que entregarle este cristal extraño al sacerdote ¿Oye qué es eso que tienes en el cuello?"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C60B42AA2738C61"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Ahora si quedaste como paleta, bueno no hay tiempo para celebrar, tengo que entregarle este cristal extraño al sacerdote ¿Oye qué es eso que tienes en el cuello?"
+				id: "2B8C8728F77C4DA4"
+				type: "command"
+			}]
+			shape: "hexagon"
+			subtitle: "Mata a Frostmaw"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "589C51EA6037FC63"
+				title: "Mata a Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Como paleta"
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"76443249BD96A8CF"
+				"53C1F20C16CBB6FF"
+			]
+			description: [
+				"&aPRESIONA EN EL BOTON PARA QUE TE DEN LAS COORDENADAS&r"
+				""
+				"&6nota:&r"
+				"NO SE RECOMIENDA HACER TP HACIA LAS COORDENADAS, VE CAMINANDO HACIA LA ANCIENT CITY"
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:recovery_compass"
+			}
+			id: "79C5F3A6EE08EA74"
+			rewards: [{
+				auto: "enabled"
+				command: "/locate structure minecraft:ancient_city"
+				id: "02129B2966892AFF"
+				type: "command"
+			}]
+			subtitle: "REVISA LA UBICACION DE &3ANCIENT CITY&r Más cercana"
+			tasks: [{
+				id: "78ED44B3F785512C"
+				title: "MOSTRAR LAS COORDENADAS"
+				type: "checkmark"
+			}]
+			title: "Coordenadas"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"76443249BD96A8CF"
+				"53C1F20C16CBB6FF"
+			]
+			description: [
+				"&aPRESIONA EN EL BOTON PARA QUE TE DEN LAS COORDENADAS&r"
+				""
+				"&6nota:&r"
+				"NO SE RECOMIENDA HACER TP HACIA LAS COORDENADAS, VE CAMINANDO HACIA EL SPAWN DE FROSTMAW"
+			]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:compass"
+			}
+			id: "2F24AC6A0F0AD012"
+			rewards: [{
+				auto: "enabled"
+				command: "/locate structure mowziesmobs:frostmaw_spawn"
+				id: "2520F502EE2D0811"
+				type: "command"
+			}]
+			subtitle: "REVISA LA UBICACION DEL SPAWN DE &bFROSTMAW"
+			tasks: [{
+				id: "121D53BCF8EFE942"
+				title: "MOSTRAR LAS COORDENADAS"
+				type: "checkmark"
+			}]
+			title: "Coordenadas"
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"76443249BD96A8CF"
+				"53C1F20C16CBB6FF"
+			]
+			description: ["—Diooos que es eso ¿Esta cosa salió del suelo en serio? Si me da un golpe estoy muerto, debo encontrar una manera de que no se me acerque y poder vencerlo."]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "villagersellanimals:crate_kitten"
+			}
+			id: "740ECC64489BED64"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Diooos que es eso ¿Esta cosa salió del suelo en serio? Si me da un golpe estoy muerto, debo encontrar una manera de que no se me acerque y poder vencerlo."
+				id: "4EC24B798E8B2178"
+				type: "command"
+			}]
+			subtitle: "Ve directamente al Warden"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:warden_spawn_egg"
+				}
+				id: "787C477EDF703B35"
+				observe_type: 5
+				timer: 0L
+				title: "Observa al warden"
+				to_observe: "minecraft:warden"
+				type: "observation"
+			}]
+			title: "Me pareció ver un lindo gatito"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"76443249BD96A8CF"
+				"53C1F20C16CBB6FF"
+			]
+			description: [
+				"—Esta cosa es el doble de grande que Ferrus, estoy congelándome."
+				"¡Que linda chica duermete duermete! "
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:frostward_ring"
+			}
+			id: "0633468EE92FF63B"
+			rewards: [{
+				auto: "enabled"
+				command: "/say —Esta cosa es el doble de grande que Ferrus, estoy congelándome.¡Que linda chica duermete duermete! "
+				id: "69E70D6695F84AA5"
+				type: "command"
+			}]
+			subtitle: "Observa a Frostmaw"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "77962195CF9575F5"
+				observe_type: 5
+				timer: 0L
+				title: "Observa a Frostmaw"
+				to_observe: "mowziesmobs:frostmaw"
+				type: "observation"
+			}]
+			title: "¡Qué fría eres!"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"63856F58B99195D4"
+				"4C60B42AA2738C61"
+			]
+			description: [
+				"HOLA VIAJER@, HAZ LLEGADO A LA ULTIMA MISIÓN PRINCIPAL QUE EH CREADO EN ESTA ACTUALIZACION."
+				""
+				"Espero que te haya gustado esta introduccion a la historia del mundo de perfection, estate atento a las futuras actualizaciones que tenga este proyecto donde vamos a agregar mas misiones y muchas cosas más."
+				""
+				"Puedes encontrar más información en mi &3discord&r o en mi canal de &cyoutube&r, ahi estaré avisando como va avanzando este proyecto. "
+				""
+				"&ePOR CIERTO SI QUIERES AYUDAR AL POYECTO CON ALGO PUEDES MANDARME UN MENSAJE POR INSTAGRAM "
+				"&aangel_lozano_sb&r  mandame un mensaje que diga: &d\"PROYECTO\"&r A dm o algo relacionado para que pueda saber que estás interesado."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03749191B756E2A6"
+			subtitle: "Habla con el sacerdote  de la aldea"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5BEF3722BF83B9D0"
+				observe_type: 5
+				timer: 50L
+				title: "Habla con el sacerdote "
+				to_observe: "irons_spellbooks:priest"
+				type: "observation"
+			}]
+			title: "PROXIMAMENTE"
+			x: 2.5d
+			y: 12.0d
+		}
+	]
+	title: "&eCAPÍTULO 1 QUÉ MUNDO TAN EXTRAÑO&r"
+}

@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5AFBEBD33EED4DC9"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:wrench"
+	}
+	id: "4B6963BC653555BD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 2.0d
+			id: "41B09E140D37284B"
+			rewards: [
+				{
+					count: 8
+					id: "162DFD469008A04E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "4CB51CD23BA52253"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "77C985571496215E"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			x: -65.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "6E351F113F55D852"
+			rewards: [
+				{
+					count: 6
+					id: "4269674C62ED4C55"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5F0AA990EBE23E27"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "0C27B5E9C6443268"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:raw_zinc"
+				}
+				type: "item"
+			}]
+			x: -62.5d
+			y: -1.5d
+		}
+	]
+	title: "Create"
+}
